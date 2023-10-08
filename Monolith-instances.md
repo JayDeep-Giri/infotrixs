@@ -4,6 +4,8 @@ To begin, follow these steps to set up an AWS EC2 instance:
 Log in to your AWS Management Console.
 Navigate to the EC2 service and click on “Launch Instance.”
 Choose an appropriate Ubuntu AMI for your EC2 instance.
+![image](https://github.com/JayDeep-Giri/infotrixs/assets/131878379/15105080-008f-4a3a-b4a9-d88800b06a97)
+
 Select the instance type and configure the desired specifications.
 Configure storage and add any additional tags if required.
 Configure security groups to allow the necessary inbound traffic for SSH (port 22) and HTTP (port 80).
