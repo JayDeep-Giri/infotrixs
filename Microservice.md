@@ -1,14 +1,19 @@
-## Creating Instances for Wordpress As well AS MySQL
-## Choose an AMI in the classic instance wizard: I chose the Amazon ubuntu AMI
+# Creating Instances for Wordpress As well AS MySQL
+# Choose an AMI in the classic instance wizard: I chose the Amazon ubuntu AMI
+![image](https://github.com/JayDeep-Giri/infotrixs/assets/131878379/6d6ccb0a-13f5-4931-8abb-24a7c8f2c4a6)
 
-## Instance details: Select the Instance Type you want to use. Here I am using t2.micro.
-## Create A security group allowing all traffic for now.
+# Instance details: Select the Instance Type you want to use. Here I am using t2.micro.
+![image](https://github.com/JayDeep-Giri/infotrixs/assets/131878379/6be23025-92ef-4176-a375-4e8d00b0885f)
 
-## Create a new key or choose already existing key(If any).
-## Launch your instance.
-## Note: This setup is common for both the instances. Now, for setting up wordpress and mysql we need to ssh login to the system for that find note the Public IP and key.
+# Create A security group allowing all traffic for now.
+![image](https://github.com/JayDeep-Giri/infotrixs/assets/131878379/7fc3b79f-da01-400b-8708-d3fe4aa4d499)
 
-## Setting Up MySQL first:
+
+# Create a new key or choose already existing key(If any).
+# Launch your instance.
+# Note: This setup is common for both the instances. Now, for setting up wordpress and mysql we need to ssh login to the system for that find note the Public IP and key.
+
+# Setting Up MySQL first:
 Step-1: ssh login:
 ssh -l ec2-user -i ubuntu-key.pem your-public-ip
 where ec2-user is the by default user already created in the Amzon AMI. And key assigned to the instance and the public Ip of your instance. Do check your own before doing this.
